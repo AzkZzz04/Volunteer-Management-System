@@ -1,0 +1,28 @@
+{
+    "admin": {"Credential": "admin"},
+    "volunteers": [
+        {"Credential": "Arthur"},
+        {"Credential": "admin"},
+        {"Credential": "Ronney"},
+        {"Credential": "Caitlin"}
+    ],
+    "events": [
+        {
+            "neededVolunteerNum": 2,
+            "eventName": "E1",
+            "volunteerList": [
+                {"Credential": "Arthur"},
+                {"Credential": "Ronney"}
+            ]
+        },
+        {
+            "neededVolunteerNum": 3,
+            "eventName": "E2",
+            "volunteerList": [
+                {"Credential": "Arthur"},
+                {"Credential": "Caitlin"},
+                {"Credential": "Ronney"}
+            ]
+        }
+    ]
+}

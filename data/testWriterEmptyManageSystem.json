@@ -1,0 +1,5 @@
+{
+    "admin": {"Credential": "admin"},
+    "volunteers": [{"Credential": "admin"}],
+    "events": []
+}

@@ -1,0 +1,24 @@
+{
+    "admin": {"Credential": "test"},
+    "volunteers": [
+        {"Credential": "test"},
+        {"Credential": "v1"},
+        {"Credential": "v2"},
+        {"Credential": "v3"}
+    ],
+    "events": [
+        {
+            "neededVolunteerNum": 1,
+            "eventName": "e1",
+            "volunteerList": [{"Credential": "v1"}]
+        },
+        {
+            "neededVolunteerNum": 2,
+            "eventName": "e2",
+            "volunteerList": [
+                {"Credential": "v2"},
+                {"Credential": "v3"}
+            ]
+        }
+    ]
+}
